@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <title>Yummy Website</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="load-container d-none justify-content-center align-items-center ">
+        <span class="loader"></span>
+    </div>
+
+    <nav id="nav" class="w-25 d-flex position-fixed">
+        
+        <div class="not-showed text-white py-3 bg-dark w-75 min-vh-100 d-flex flex-column px-3 justify-content-between ">
+            <div>
+                <h1>YUMMY.</h1>
+                <ul>
+                    <li id="search">Search</li>
+                    <li id="categories">Categories</li>
+                    <li id="area">Area</li>
+                    <li id="ingredients">Ingredients</li>
+                    <li id="contact">Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="nav-info">
+                <div class="nav-info-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <div class="copyright">Copyright Â© 2019 All Rights Reserved.</div>
+            </div>
+        </div>
+
+        <div class="showed text-dark py-3 bg-white w-25 min-vh-100 d-flex flex-column align-items-center justify-content-between">
+            <picture>
+                <img src="imgs/logo.png" class="w-100" alt="logo-img">
+            </picture>
+    
+            <div class="control-icons">
+                <i class="fa-solid fa-bars fa-2x"></i>
+                <i class="fa-solid fa-xmark d-none fa-2x"></i>
+            </div>
+    
+            <div class="share-icons d-flex flex-column ">
+                <i class="fa-solid fa-globe mb-2 "></i>
+                <i class="fa-solid fa-share"></i>
+            </div>
+        </div>
+
+        
+    </nav>
+
+    <div class=" w-100 section d-none  pt-4" id="searchContainer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" id="searchByName" class="form-control " placeholder="Search by Name">
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" id="searchByLetter" class="form-control " placeholder="Search by First Letter">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="container" class="section min-vh-100  pt-4">
+        <div class="container-fluid ">
+            <div class="row g-3 ">
+               
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
